@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="testng.failed_TESTCASES.TransformerExample"/>
+  </listeners>
+  <test thread-count="5" name="C:/Users/HP/IdeaProjects/TestngProject(failed)">
+    <classes>
+      <class name="testng.failed_TESTCASES.ExamplesOfFailScripts">
+        <methods>
+          <include name="failScriptA"/>
+          <include name="failScriptB"/>
+        </methods>
+      </class> <!-- testng.failed_TESTCASES.ExamplesOfFailScripts -->
+    </classes>
+  </test> <!-- C:/Users/HP/IdeaProjects/TestngProject(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

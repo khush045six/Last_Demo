@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="testng.failed_TESTCASES.TransformerExample"/>
+    </listeners>
+<!--    <parameter name="browserName" value="chrome"/>-->
+<!--    <parameter name="cityName" value="Delhi"/ >-->
+<!--    <parameter name="courseName" value="Automation Testing"/>-->
+<!--    <groups>-->
+<!--        <run>-->
+<!--            <include name="smoke"/>-->
+<!--        </run>-->
+<!--    </groups>-->
+    <test verbose="2" preserve-order="true" parallel="false" thread-count="3" name="C:/Users/HP/IdeaProjects/TestngProject">
+        <classes>
+            <class name="testng.failed_TESTCASES.ExamplesOfFailScripts"/>
+<!--            <class name="testng.parameterization.Data_ProviderExample"/>-->
+<!--            <class name="testng.parameterization.NeedOfParameters"/>-->
+<!--            <class name="testng.basicclasses.BasicsOfTestng"/>-->
+<!--            <class name="testng.basicclasses.BeforeAfterMethod"/>-->
+<!--            <class name="testng.basicclasses.DependsOnGroupsExample"/>-->
+<!--            <class name="testng.basicclasses.InnvocationCount"/>-->
+<!--            <class name="testng.basicclasses.PriorityExample"/>-->
+<!--            <class name="testng.assertiionClasses.basicOfassertion"/>-->
+<!--            <class name="testng.assertiionClasses.SoftassertExample"/>-->
+        </classes>
+    </test>
+</suite>
