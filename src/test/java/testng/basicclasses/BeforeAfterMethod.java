@@ -8,8 +8,7 @@ public class BeforeAfterMethod {
     @BeforeMethod
     public void beforeMethod() {
         System.out.println("BEFOREMETHOD");
-        System.out.println("TESTCASE_A");
-
+        System.out.println("TESTCASE_ABC");
     }
 
     @Test
