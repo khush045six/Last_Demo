@@ -6,7 +6,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import java.time.Duration;
+
 
 public class BasicsOfTestng {
 
@@ -16,12 +16,14 @@ public class BasicsOfTestng {
     public void preCondition(){
          driver = new ChromeDriver();
          driver.manage().window().maximize();
-         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
+
     }
 
     @Test
     public void testCase1(){
         driver.get("https://www.google.com/");
+        driver.navigate().refresh();
 
     }
     @Test
