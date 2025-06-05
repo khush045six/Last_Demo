@@ -6,30 +6,34 @@ public class BeforeAfterMethod {
 
 
     @BeforeMethod
-    public  void beforeMethod(){
+    public void beforeMethod() {
         System.out.println("BEFOREMETHOD");
     }
+
     @Test
-    public void testCase1(){
+    public void testCase1() {
         System.out.println("TESTCASE1");
+        System.out.println("Hello World");
+
     }
 
     @Test(groups = {"smoke"})
-    public void testCase2(){
+    public void testCase2() {
         System.out.println("TESTCASE2");
     }
+
     @Test
-    public void testCase3(){
+    public void testCase3() {
         System.out.println("TESTCASE3");
     }
 
     @Test
-    public void testCase4(){
+    public void testCase4() {
         System.out.println("TESTCASE4");
     }
 
     @AfterMethod
-    public  void afterMethod(){
+    public void afterMethod() {
         System.out.println("AFTERMETHOD");
     }
 
