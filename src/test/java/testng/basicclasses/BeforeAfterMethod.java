@@ -14,6 +14,7 @@ public class BeforeAfterMethod {
     public void testCase1() {
         System.out.println("TESTCASE1");
         System.out.println("Hello World");
+        System.out.println("Hi Friends..................");
 
     }
 
